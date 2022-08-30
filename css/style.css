@@ -1,36 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,500&display=swap');
+
 * {
+  margin: 0;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
-
 body {
   background-color: rgb(2, 8, 20);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
   margin: 0;
 }
-#welcome-message {
-  margin-top: 100px;
-}
-#welcome-message p {
-  font-size: large;
-}
- 
 #page-container {
   position: relative;
   min-height: 100vh;
 }
-footer {
+#footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 40px;
 }
-
-.nav {
+   
+ 
+  /* ---style navbar ---  */
+.nav{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -40,10 +32,8 @@ footer {
   top: 0;
   z-index: 100;
 }
-
 .logo {
-  margin-left: 60px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .logo img {
@@ -54,10 +44,9 @@ footer {
   color: rgb(18, 241, 241);
   font-size: 25px;
   margin-top: -35px;
-
   margin-left: 50px;
+  cursor: pointer;
 }
-
 .nav ul {
   display: flex;
 }
@@ -74,28 +63,32 @@ footer {
   font-weight: bolder;
 }
 .userform {
-  display: flex;
-  flex-direction: row;
   border: 1px solid grey;
   margin-right: 100px;
   border: none;
+  display: flex;
+  flex-direction: row;
 }
 #search-input {
   flex-grow: 2;
   border: none;
+  color: black;
 }
-#search-btn {
+#search-btn{
+  background-color:teal;
   cursor: pointer;
-}
-.loginregister {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 50px;
 }
 .userbtn {
   background-color: rgb(2, 8, 20);
   border: none;
   cursor: pointer;
+}
+.loginregister {
+  margin-right: 50px;
+  display: flex;
+}
+.loginbtn{
+  margin-right: 5px;
 }
 .loginregister a {
   text-decoration: none;
@@ -105,6 +98,16 @@ footer {
   color: teal;
   font-weight: bolder;
 }
+/* ----style welcome mesg------ */
+#welcome-message {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#welcome-message p {
+  font-size: large;
+}
+
+/* -------style footer --------- */
 .footer-content {
   display: flex;
   justify-content: space-around;
@@ -128,4 +131,7 @@ footer {
 .footerbtn:hover {
   color: teal;
   font-weight: bolder;
+}
+.social-link a i:hover{
+color: teal;
 }
