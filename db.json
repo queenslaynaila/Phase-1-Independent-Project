@@ -308,5 +308,19 @@
     "poster": "./images/memories of alhambra.jpg",
     "summary": "Strong spirited Yoo Jin Woo is the CEO of an investment company with a degree in engineering and a knack for developing video games.Hee Joo is a former classical guitarist who came to Spain to further her studies. After the death of her parents, she takes on various jobs to support herself, including running the old hostel.The two meet and are draw to eac other"
   }
-]
+],
+ "popular":[
+  {
+    "id":2
+  },
+  {
+    "id":4
+  },
+  {
+    "id":6
+  },
+  {
+    "id":8
+  }
+ ]
 }

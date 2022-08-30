@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -13,9 +12,13 @@ body {
   flex-direction: column;
   margin: 0;
 }
-article {
-  margin-top: 20px;
+#welcome-message {
+  margin-top: 100px;
 }
+#welcome-message p {
+  font-size: large;
+}
+ 
 #page-container {
   position: relative;
   min-height: 100vh;
