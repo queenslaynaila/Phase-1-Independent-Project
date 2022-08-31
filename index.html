@@ -6,11 +6,12 @@
     <title>KDRAMA MOVIE LIBRARY</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/6d80c01793.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6d80c01793.js" crossorigin="anonymous" ></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="/css/style.css" />
   </head>
   <body> 
     <div id="page-container">
@@ -41,7 +42,7 @@
           </form>
         </div>
         <div class="loginregister">
-          <button class="userbtn" id="loginbtn"><a href=" ">Login</a></button>
+          <button onclick="setLoginModal()"  class="userbtn" id="loginbtn"><a href=" ">Login</a></button>
           <button class="userbtn" id="registerbtn">
             <a href=" ">Register</a>
           </button>
@@ -49,15 +50,45 @@
       </navigation>
 
       <section id="welcome-message">
-      <h1>Welcome To MyKdrama</h1>
-      <p>Get latest K-Drama News,Exclusives,Clebrities,Korean Dramas<br>ChineseDramas,Movies,Tv shows and Reviews</p>
+        <div class="main-welcome">
+          <div class="main-welcome-msg">
+            <h3>Welcome To MyKdrama</h3>
+            <p>Get latest K-Drama News,Exclusives,Clebrities,Korean Dramas ChineseDramas,Movies,Tv shows and Reviews</p>
+          </div>
+          <div class="currentlyairing">
+            <div id="demo" class="carousel" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="carosel-img" src="" class="d-block"  />
+                </div>
+                <div class="carousel-item">
+                  <img class="carosel-img" src="" class="d-block"  />
+                </div>
+                <div class="carousel-item">
+                  <img class="carosel-img" src="" class="d-block" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span> 
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span> 
+              </button>
+            </div>
+            </div>
+          </div>
+        </div>
       </section>
       
       <section id="popular movies">
+
          
-        
-        
       </section>
+
       <footer id="footer">
         <div class="footer-content">
 
@@ -98,17 +129,26 @@
           </div>
         </div>
 
-      </footer>
-  
+      </footer> 
     </div>
-  
-    
- 
-  
-     
-    
-    
 
+
+     <!-- loginform -->
+     <div id="hide" id="login-form">
+       <div class="center">
+         <div class="form">
+             <form class="login-form">
+              <span class="material-icons">Drama</span>
+              <input type="text" placeholder="email" required />
+              <input type="password" placeholder="password" required />
+              <button>login</button>
+            </form>
+           </div>
+        </div>
+      </div>
+     
+     
+     
     
 
     <script src="./js/script.js" async defer></script>

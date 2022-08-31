@@ -18,11 +18,9 @@
       "actresses": ["Oh Yeon-ah"]
     },
     "noepisodes": 16,
-    "firstReleasedDate": "September 10, 2018",
-    "finalReleasedDate": "October 30, 2018",
-    "releasedYear": "2018",
+    "releasedYear": "2019",
     "imdbRating": "7.3",
-    "percentLiked": "97",
+    "percentLiked": 97,
     "audienceRating": "4.8",
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "100 days my Prince",
@@ -54,11 +52,9 @@
       "actresses": ["Bang Eun-jin", "Hwang Woo-seul-hye", "Yoon Ji-min"]
     },
     "noepisodes": 16,
-    "firstReleasedDate": "December 14, 2019",
-    "finalReleasedDate": "February 16, 2020",
     "releasedYear": "2019",
     "imdbRating": "8.8",
-    "percentLiked": "97",
+    "percentLiked": 97,
     "audienceRating": "5",
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "But It's Destiny",
@@ -90,8 +86,6 @@
       ]
     },
     "noepisodes": 20,
-    "firstReleasedDate": "June 20, 2016",
-    "finalReleasedDate": "August 23, 2016",
     "releasedYear": "2016",
     "imdbRating": "7.7",
     "percentLiked": "95",
@@ -133,11 +127,9 @@
       ]
     },
     "noepisodes": "16",
-    "firstReleasedDate": "February 24, 2017",
-    "finalReleasedDate": "April 15, 2017",
-    "releasedYear": "2017",
+    "releasedYear": "2019",
     "imdbRating": "8.2",
-    "percentLiked": "98",
+    "percentLiked": 88,
     "audienceRating": "4.9",
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "You're My Garden",
@@ -162,11 +154,9 @@
       "actresses": ["Kim Hye-ok"]
     },
     "noepisodes": "16",
-    "firstReleasedDate": "June 6, 2018",
-    "finalReleasedDate": "July 26, 2018",
     "releasedYear": "2018",
     "imdbRating": "8.1",
-    "percentLiked": "97",
+    "percentLiked": 87,
     "audienceRating": "4.8",
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "Love Virus",
@@ -204,9 +194,7 @@
       ]
     },
     "noepisodes": "20",
-    "firstReleasedDate": "October 9, 2013",
-    "finalReleasedDate": "December 12, 2013",
-    "releasedYear": "2013",
+    "releasedYear": "2019",
     "imdbRating": "7.5",
     "percentLiked": "96",
     "audienceRating": "4.8",
@@ -233,11 +221,9 @@
       "actresses": ["Kim Ye-ryeong", "Pyo Ye-jin"]
     },
     "noepisodes": "16",
-    "firstReleasedDate": "May 22, 2017",
-    "finalReleasedDate": "July 11, 2017",
     "releasedYear": "2017",
     "imdbRating": "8.1",
-    "percentLiked": "97",
+    "percentLiked": 67,
     "audienceRating": "4.9",
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "All I wanna do",
@@ -268,8 +254,6 @@
       "actresses": ["Seo Jeong-yeon", "Park Hwan-hee"]
     },
     "noepisodes": "16",
-    "firstReleasedDate": "February 24, 2016",
-    "finalReleasedDate": "April 14, 2016",
     "releasedYear": "2016",
     "imdbRating": "8.4",
     "percentLiked": "97",
@@ -280,7 +264,7 @@
     "summary": "A love story that develops between a surgeon and a special forces officer.Kang Mo Yeon is a pretty and assertive woman who works as a cardiothoracic surgeon at Haesung Hospital.Her life is forever changed when she encounters Yoo Shi Jin, the Captain and team leader of the Alpha Team who cares more about protecting anybody in need of help as well as his country, even if it goes against the order of his superiors. This drama will tell of how they both bond together in a time of war  "
   },
   {
-    "id":"9",
+    "id":9,
     "title": "Memories of the Alhambra",
     "genre": ["Science fantasy", "Action Thriller", "Romance"],
     "scriptWriter": "Song Jae-jung",
@@ -297,30 +281,101 @@
       "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
     },
     "noepisodes": "16",
-    "firstReleasedDate": "December 1, 2018",
-    "finalReleasedDate": "January 20, 2019",
     "releasedYear": "2018",
     "imdbRating": "7.8",
-    "percentLiked": "97",
+    "percentLiked": 57,
     "audienceRating": "4.7",
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "Star (Little Prince)",
     "poster": "./images/memories of alhambra.jpg",
     "summary": "Strong spirited Yoo Jin Woo is the CEO of an investment company with a degree in engineering and a knack for developing video games.Hee Joo is a former classical guitarist who came to Spain to further her studies. After the death of her parents, she takes on various jobs to support herself, including running the old hostel.The two meet and are draw to eac other"
+  },
+  {
+    "id":10,
+    "title": "Love like the galaxy",
+    "genre": "Historical",
+    "scriptWriter": "Song Jae-jung",
+    "director": "Ahn Gil-ho",
+    "distributor": "tvN",
+    "leadActor": "Leo Wu",
+    "leadActress": "Zhao Lusi",
+    "mainCasts": {
+      "actors": ["Leo Wu"],
+      "actresses": ["Zhao Lusi"]
+    },
+    "supportingCasts": {
+      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
+      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+    },
+    "noepisodes": "16",
+    "releasedYear": "2022",
+    "imdbRating": "7.8",
+    "percentLiked": 57,
+    "audienceRating": "4.7",
+    "countryOfOrigin": "China",
+    "openingTitleSong": "Star (Little Prince)",
+    "poster": "./images/love like the galaxy.jpg",
+    "summary": "Lacking love her whole life, Cheng Shao Shang is both pragmatic and insecure in choosing a partner for marriage. She encounters three men—the emperor's adopted son Ling Bu Yi, the talented Yuan Shen of Bailu Mountain, and the aristocrat Lou Yao who each have their pros and cons. "
+
+  },
+  {
+    "id":11,
+    "title": "Who rules the world",
+    "genre": "Historical",
+    "scriptWriter": "Song Jae-jung",
+    "director": "Ahn Gil-ho",
+    "distributor": "tvN",
+    "leadActor": "Leo Wu",
+    "leadActress": "Zhao Lusi",
+    "mainCasts": {
+      "actors": ["Yang Yang"],
+      "actresses": ["Zhao Lusi"]
+    },
+    "supportingCasts": {
+      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
+      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+    },
+    "noepisodes": "16",
+    "releasedYear": "2022",
+    "imdbRating": "7.8",
+    "percentLiked": 57,
+    "audienceRating": "4.7",
+    "countryOfOrigin": "China",
+    "openingTitleSong": "Star (Little Prince)",
+    "poster": "./images/who rules the world.jpg",
+    "summary": "Lacking love her whole life, Cheng Shao Shang is both pragmatic and insecure in choosing a partner for marriage. She encounters three men—the emperor's adopted son Ling Bu Yi, the talented Yuan Shen of Bailu Mountain, and the aristocrat Lou Yao who each have their pros and cons. "
+
+  },
+  {
+    "id":12,
+    "title": "Immortal Samsara",
+    "genre": "Historical",
+    "scriptWriter": "Song Jae-jung",
+    "director": "Ahn Gil-ho",
+    "distributor": "tvN",
+    "leadActor": "Leo Wu",
+    "leadActress": "Zhao Lusi",
+    "mainCasts": {
+      "actors": ["Yang Zi"],
+      "actresses": ["Cheng Yi"]
+    },
+    "supportingCasts": {
+      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
+      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+    },
+    "noepisodes": "16",
+    "releasedYear": "2022",
+    "imdbRating": "7.8",
+    "percentLiked": 57,
+    "audienceRating": "4.7",
+    "countryOfOrigin": "China",
+    "openingTitleSong": "Star (Little Prince)",
+    "poster": "./images/immortal samsara.jpg",
+    "summary": "Yan Dan is the sole descendant of the ancient tribe the Four-Leaved Lotus.  Yan Dan’s entire being is a treasure trove of medicines.  She and twin sister Zhi Xi transformed into human form a century before while attending the Queen Mother's Feast, but Yan Dan faced the greatest trial of her life - the love trial. Falling in love with Lord Ying Yuan resulted in her wasting the following  900 years trying to forget him. Such a high price to pay! "
+
   }
 ],
- "popular":[
-  {
-    "id":2
-  },
-  {
-    "id":4
-  },
-  {
-    "id":6
-  },
-  {
-    "id":8
-  }
- ]
+"casts":[
+  
+]
 }
