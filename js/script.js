@@ -23,6 +23,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
   console.log(recentrelease);
+  const container3 = document.querySelector(".container3");
+  const updateUIRecents = (recentrelease) => {
+    const data = recentrelease.map((_element, _index) => {
+      console.log(_element.title);
+      return `<div class="wrapper" key=${_index}>
+      <div class="movie-card">
+        <div class="movieimg">
+          <img src=" ${_element.poster}">
+        </div>
+        <div class="moviedetail">
+          <h3 class="movie-card-title">
+             ${_element.title}
+          </h3>
+        </div>
+      </div>
+    </div>`;
+    });
+    container3.innerHTML = data;
+  };
+  updateUIRecents(recentrelease);
 
   let populareleases = kDramaData.filter((movie) => {
     if (movie.percentLiked >= 90) {
@@ -30,6 +50,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
   console.log("popularDATA", populareleases);
+  const container2 = document.querySelector(".container2");
+  const updateUIPopular = (populareleases) => {
+    const data = populareleases.map((_element, _index) => {
+      console.log(_element.title);
+      return `<div class="wrapper" key=${_index}>
+      <div class="movie-card">
+        <div class="movieimg">
+          <img src=" ${_element.poster}">
+        </div>
+        <div class="moviedetail">
+          <h3 class="movie-card-title">
+             ${_element.title}
+          </h3>
+        </div>
+      </div>
+    </div>`;
+    });
+    container2.innerHTML = data;
+  };
+  updateUIPopular(populareleases);
 
   let currentlyAiring = kDramaData.filter((movie) => {
     if (movie.releasedYear == "2022") {
@@ -50,9 +90,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           <img src=" ${_element.poster}">
         </div>
         <div class="moviedetail">
-          <h5 class="movie-card-title">
+          <h3 class="movie-card-title">
              ${_element.title}
-          </h5>
+          </h3>
         </div>
       </div>
     </div>`;

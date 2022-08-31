@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,500&display=swap");
 
+/* -----general styling----- */
 * {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -27,7 +28,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 10vh;
-
   position: sticky;
   top: 0;
   z-index: 100;
@@ -97,14 +97,6 @@ body {
 .loginregister a:hover {
   color: teal;
   font-weight: bolder;
-}
-/* ----style welcome mesg------ */
-#welcome-message {
-  margin-top: 60px;
-  margin-left: 100px;
-}
-#welcome-message p {
-  font-size: large;
 }
 
 /* -------style footer --------- */
@@ -199,36 +191,8 @@ body {
   display: none;
 }
 
-/* ----currentlyairing------ */
-.main-welcome {
-  display: flex;
-  gap: 90px;
-}
-/* .airing {
-  height: auto;
-  width: 500px;
-  margin-right: 30px;
-} */
-.carousel {
-  height: 500px;
+/* -----styling the movie cards--- */
 
-  /* position: relative; */
-  overflow: hidden;
-  margin-right: 30px;
-}
-.main-welcome-msg {
-  width: 500px;
-  height: 200px;
-}
-.main-welcome-msg {
-  margin-top: 80px;
-}
-
-/* -----banner--- */
-.wrapper {
-  display: flex;
-  gap: 10px;
-}
 .movie-card {
   box-shadow: 0 10px 30px -15px #d9dbdf;
   margin-top: 30px;
@@ -240,18 +204,26 @@ img {
 }
 .movie-details {
   margin-top: 50px;
-  width: 900px;
-  height: 900px;
+  width: 400px;
+  height: 400px;
 }
 .grp {
   font-size: 3rem;
   margin-top: 50px;
+}
+.movieimg {
+  max-height: 400px;
+}
+.container {
   display: flex;
-  flex-direction: column;
+  flex-flow: wrap;
+  object-fit: contain;
+}
+.container2 {
+  display: flex;
   flex-flow: wrap;
 }
-/* .container {
-  background-color: #d9dbdf;
-  height: 200px;
-  width: 200px;
-} */
+.container3 {
+  display: flex;
+  flex-flow: wrap;
+}
