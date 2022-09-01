@@ -3,6 +3,7 @@
   {
     "id":1,
     "title": "100 Days My Prince",
+    "likes":50,
     "genre": ["Historical", "Romantic-comedy"],
     "scriptWriter": "No Ji-sul",
     "director": "Lee Jong-jae",
@@ -30,6 +31,7 @@
   {
     "id":2,
     "title": "Crash Landing on You",
+    "likes":70,
     "genre": ["Romance","Drama" ],
     "scriptWriter": "Park Ji-eun",
     "director": "Lee Jung-hyo",
@@ -64,6 +66,7 @@
   {
     "id":3,
     "title": "The Doctors",
+    "likes":20,
     "genre": ["Medical", "Drama", "Romance"],
     "scriptWriter": "Ha Myung-hee",
     "director": "Oh Choong-hwan",
@@ -93,11 +96,13 @@
     "countryOfOrigin": "South Korea",
     "openingTitleSong": "No Way",
     "poster": "./images/doctors.jpg",
+    "comments":["awesome"]
     "summary": "Yoo Hye-jung (Park Shin-hye) was a headstrong girl in high school with a prickly, gangster personality. Due to her many childhood scars, Hye-jung keeps her heart closed towards other people. However, she changes after meeting her mentor Hong Ji-hong (Kim Rae-won), who plays a key role in transforming her life from a 'hopeless' delinquent to a compassionate doctor. They part ways subsequently but meet agecome a doctain after 13 years, when Yoo Hye-jung had bor"
   },
   {
     "id":"4",
     "title": "Strong Woman Do Bong-soon",
+    "likes":20,
     "genre": ["Fantasy", "Thriller", "Action", "Romantic-comedy"],
     "scriptWriter": "Baek Mi-kyung",
     "director": "Lee Hyung-min",
@@ -138,6 +143,7 @@
   },
   {
     "id":"5",
+    "likes":10,
     "title": "What's Wrong with Secretary Kim?",
     "genre": ["Romantic-comedy"],
     "scriptWriter": "Jung Eun-young",
@@ -166,6 +172,7 @@
   { 
     "id":"6",
     "title": "The Heirs",
+    "likes":5,
     "genre": ["Romance", "Drama", "Teen"],
     "scriptWriter": "Kim Eun-sok",
     "director": "Kang Shin-hyo",
@@ -206,6 +213,7 @@
   {
     "id":7,
     "title": "Fight for my way",
+    "likes":60,
     "genre": ["Romantic-comedy"],
     "scriptWriter": "Im Sang-choon",
     "director": "Lee Na-jeong",
@@ -233,6 +241,7 @@
   {
     "id":8,
     "title": "Descendants of the Sun",
+    "likes":100,
     "genre": ["Romantic", "Melodrama", "Action"],
     "scriptWriter": "Kim Eun-sook",
     "director": "Lee Eung-bok",
@@ -266,6 +275,7 @@
   {
     "id":9,
     "title": "Memories of the Alhambra",
+    "likes":20,
     "genre": ["Science fantasy", "Action Thriller", "Romance"],
     "scriptWriter": "Song Jae-jung",
     "director": "Ahn Gil-ho",
@@ -293,6 +303,7 @@
   {
     "id":10,
     "title": "Love like the galaxy",
+    "likes":400,
     "genre": "Historical",
     "scriptWriter": "Song Jae-jung",
     "director": "Ahn Gil-ho",
@@ -321,6 +332,7 @@
   {
     "id":11,
     "title": "Who rules the world",
+    "likes":600,
     "genre": "Historical",
     "scriptWriter": "Song Jae-jung",
     "director": "Ahn Gil-ho",
@@ -349,6 +361,7 @@
   {
     "id":12,
     "title": "Immortal Samsara",
+    "likes":700,
     "genre": "Historical",
     "scriptWriter": "Song Jae-jung",
     "director": "Ahn Gil-ho",

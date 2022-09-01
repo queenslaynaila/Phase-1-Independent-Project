@@ -1,17 +1,13 @@
+// ----define all needed variabless---//
 const localAPI = "http://localhost:3000/kmovies";
 const localAPIpopular = "http://localhost:3000/popular";
 let kDramaData = [];
-const nowairing = document.getElementsByClassName("wrapper");
-console.log(nowairing);
-const imageContainer = document.getElementsByClassName("carosel-img");
-
-console.log(imageContainer);
 const recentlyRel = document.getElementsByClassName("recentreleases");
+
+//-----fetch from server-------//
 const getKdramaData = () => {
   return fetch(localAPI).then((response) => response.json());
 };
-
-// function updateCurrently(currentlyAiring) { for (let i = 0; i <= currentlyAiring.length; i++) {imageContainer[i].src = currentlyAiring[i].poster;}}
 
 document.addEventListener("DOMContentLoaded", async () => {
   kDramaData = await getKdramaData();
@@ -22,7 +18,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       return movie;
     }
   });
-  console.log(recentrelease);
+  console.log("Recentrelease:", recentrelease);
+
+  //-----upload recent releases to the dom----//
   const container3 = document.querySelector(".container3");
   const updateUIRecents = (recentrelease) => {
     const data = recentrelease.map((_element, _index) => {
@@ -37,6 +35,17 @@ document.addEventListener("DOMContentLoaded", async () => {
              ${_element.title}
           </h3>
         </div>
+        <div class="like-content">
+          <div>
+          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+          <span class="like-count" id="like-content-2">
+                <span> ${_element.likes}</span> 
+          </span>
+          </div>
+          <div>
+          <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+          </div>
+        </div>
       </div>
     </div>`;
     });
@@ -44,6 +53,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
   updateUIRecents(recentrelease);
 
+  //----upload popular releases to the dom ------//
   let populareleases = kDramaData.filter((movie) => {
     if (movie.percentLiked >= 90) {
       return movie;
@@ -64,6 +74,17 @@ document.addEventListener("DOMContentLoaded", async () => {
              ${_element.title}
           </h3>
         </div>
+        <div class="like-content">
+          <div>
+          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+          <span class="like-count" id="like-content-2">
+                <span> ${_element.likes}</span> 
+          </span>
+          </div>
+          <div>
+          <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+          </div>
+        </div>
       </div>
     </div>`;
     });
@@ -71,6 +92,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
   updateUIPopular(populareleases);
 
+  // -----upload currently airing to DOM----//
   let currentlyAiring = kDramaData.filter((movie) => {
     if (movie.releasedYear == "2022") {
       return movie;
@@ -93,6 +115,17 @@ document.addEventListener("DOMContentLoaded", async () => {
           <h3 class="movie-card-title">
              ${_element.title}
           </h3>
+        </div>
+        <div class="like-content">
+          <div>
+          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+          <span class="like-count" id="like-content-2">
+                <span> ${_element.likes}</span> 
+          </span>
+          </div>
+          <div>
+          <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
     </div>`;

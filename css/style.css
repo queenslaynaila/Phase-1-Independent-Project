@@ -9,7 +9,6 @@
 body {
   background-color: rgb(2, 8, 20);
   margin: 0;
-  font-size: large;
 }
 #page-container {
   position: relative;
@@ -31,6 +30,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  font-size: large;
 }
 .logo {
   margin-top: 20px;
@@ -208,7 +208,6 @@ img {
   height: 400px;
 }
 .grp {
-  font-size: 3rem;
   margin-top: 50px;
 }
 .movieimg {
@@ -226,4 +225,15 @@ img {
 .container3 {
   display: flex;
   flex-flow: wrap;
+}
+.like-content {
+  display: flex;
+  justify-content: space-between;
+}
+.like-content,
+.moviedetail {
+  background-color: #010714;
+}
+#like-2 {
+  color: red;
 }

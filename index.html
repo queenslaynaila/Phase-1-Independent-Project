@@ -6,7 +6,7 @@
     <title>KDRAMA MOVIE LIBRARY</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
     <script src="https://kit.fontawesome.com/6d80c01793.js" crossorigin="anonymous" ></script>
    <link rel="stylesheet" href="/css/style.css" />
   </head>
@@ -22,8 +22,8 @@
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Gennres</a></li>
-            <li><a href="">Movies</a></li>
-            <li><a href="">Series</a></li>
+            <li><a href="">RequestDrama</a></li>
+            <li><a href="">FAQ</a></li>
           </ul>
         </div>
         <div class="user">
@@ -39,21 +39,34 @@
           </form>
         </div>
         <div class="loginregister">
-          <button onclick="setLoginModal()"  class="userbtn" id="loginbtn"><a href=" ">Login</a></button>
+          <button onclick="setLoginModal()"  class="userbtn" class="loginbtn"><a href=" ">Login</a></button>
           <button class="userbtn" id="registerbtn">
             <a href=" ">Register</a>
           </button>
         </div>
       </navigation>
+      <div id="hide" id="login-form">
+        <div class="center">
+          <div class="form">
+              <form class="login-form">
+               <span class="material-icons">Drama</span>
+               <input type="text" placeholder="email" required />
+               <input type="password" placeholder="password" required />
+               <button>login</button>
+             </form>
+            </div>
+         </div>
+       </div>
+      
 
       <section id="popular movies">
-        <h4 class="grp">Popular Movies</h4>
+        <h3 class="grp">Popular Movies</h3>
         <div class="container2">
             
         </div>
       </section>
       <section class="recentreleases">
-        <h4 class="grp">Recent Release</h4>
+        <h3 class="grp">Recent Release</h3>
         <div class="container3">
             
         </div>
@@ -62,7 +75,7 @@
       
 
       <section id="currentlyairing" >
-         <h4 class="grp">Currently Airing</h4>
+         <h3 class="grp">Currently Airing</h3>
          <div class="container">
             
         </div>
@@ -89,7 +102,7 @@
           <div class="footer-links">
             <ul>
             <h4 class="link-heading">DARK MODE</h4>
-            <a href=""><i class="fa-solid fa-sun footerbtn" ></i></a><br>
+            <a href=""onclick="myFunction()"><i class="fa-solid fa-sun footerbtn" ></i></a><br>
             <a href=""><i class="fa-thin fa-sun footerbtn"></i></a>
             </ul>
 
@@ -116,19 +129,7 @@
 
 
      <!-- loginform -->
-     <div id="hide" id="login-form">
-       <div class="center">
-         <div class="form">
-             <form class="login-form">
-              <span class="material-icons">Drama</span>
-              <input type="text" placeholder="email" required />
-              <input type="password" placeholder="password" required />
-              <button>login</button>
-            </form>
-           </div>
-        </div>
-      </div>
-     
+   
      
      
     
