@@ -21,7 +21,7 @@
         <div class="nav">
           <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">Gennres</a></li>
+            <li id="gen"><a href="">Gennres</a></li>
             <li><a href="">RequestDrama</a></li>
             <li><a href="">FAQ</a></li>
           </ul>
@@ -39,26 +39,42 @@
           </form>
         </div>
         <div class="loginregister">
-          <button onclick="setLoginModal()"  class="userbtn" class="loginbtn"><a href=" ">Login</a></button>
-          <button class="userbtn" id="registerbtn">
-            <a href=" ">Register</a>
-          </button>
-        </div>
-      </navigation>
-      <div id="hide" id="login-form">
-        <div class="center">
-          <div class="form">
-              <form class="login-form">
-               <span class="material-icons">Drama</span>
-               <input type="text" placeholder="email" required />
-               <input type="password" placeholder="password" required />
-               <button>login</button>
-             </form>
-            </div>
+           <button id ="show-login">Login</button>
          </div>
-       </div>
+         <div class="popup  formlogin">
+          <div class="close-btn">&times;</div>
+          <div class="form">
+            <h2>Login</h2>
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter mail">
+            </div>
+            <div class="form-element">
+              <label for ="password">Password</label>
+              <input type="password" id="password" placeholder="enter">
+            </div>
+            <div class="form-element">
+              <input type="checkbox" id="remember me">
+              <label for = "remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+              <button>Sign in</button>
+            </div>
+            <div class="form-element">
+               <a href="#">Forgot password</a>
+            </div>
+          </div>
+         </div>
+      </navigation>
+       
       
-
+     <div class="cont">
+      <section id="currentlyairing" >
+        <h3 class="grp">Currently Airing</h3>
+        <div class="container">
+           
+       </div>
+     </section>
       <section id="popular movies">
         <h3 class="grp">Popular Movies</h3>
         <div class="container2">
@@ -74,12 +90,7 @@
 
       
 
-      <section id="currentlyairing" >
-         <h3 class="grp">Currently Airing</h3>
-         <div class="container">
-            
-        </div>
-      </section>
+      
       
      
      
@@ -102,7 +113,7 @@
           <div class="footer-links">
             <ul>
             <h4 class="link-heading">DARK MODE</h4>
-            <a href=""onclick="myFunction()"><i class="fa-solid fa-sun footerbtn" ></i></a><br>
+            <a href=""><i class="fa-solid fa-sun footerbtn " id="light" ></i></a><br>
             <a href=""><i class="fa-thin fa-sun footerbtn"></i></a>
             </ul>
 
@@ -125,8 +136,8 @@
         </div>
 
       </footer> 
-    </div>
-
+     </div>
+   </div>
 
      <!-- loginform -->
    

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,500&display=swap");
 
 /* -----general styling----- */
+
 * {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -129,68 +130,92 @@ body {
 }
 
 /* styling the hidden login form */
-.login {
-  width: 360px;
-  padding: 8% 0 0;
-  margin: auto;
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-.form {
-  position: relative;
-  z-index: 1;
-  background: #ffffff;
+.center button {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+  background: #d9dbdf;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.popup {
+  display: none;
+  background-color: rgba(216, 191, 191, 0.15);
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  width: 380px;
+  padding: 20px 30px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 45px;
+}
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #888;
+  color: #eee;
   text-align: center;
-}
-
-.form input {
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  border-radius: 5px;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-  font-family: "Comfortaa", cursive;
-}
-
-.form input:focus {
-  background: #dbdbdb;
-}
-
-.form button {
-  font-family: "Comfortaa", cursive;
-  text-transform: uppercase;
-  outline: 0;
-  background: #4b6cb7;
-  width: 100%;
-  border: 0;
-  border-radius: 5px;
-  padding: 15px;
-  color: #ffffff;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+  line-height: 15px;
+  border-radius: 15px;
   cursor: pointer;
 }
-
-.form button:active {
-  background: #395591;
+.popup .form h2 {
+  text-align: center;
+  margin: 10px 0px 20px;
+  margin: 10px, 0px, 20px;
+  font-size: 20px;
 }
-
-.form span {
-  font-size: 40px;
-  color: #4b6cb7;
+.popup .form .form-element {
+  margin: 15px 0px;
 }
-#hide {
-  display: none;
+.popup .form .form-element button {
+  padding: 10px;
+  border: none;
+  background-color: #010714;
+  cursor: pointer;
 }
-
+.popup .form .form-element a {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  color: #1a79ca;
+  text-decoration: none;
+  font-weight: 600;
+}
+.popup .form .form-element label {
+  font-size: 14px;
+  color: white;
+}
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"] {
+  margin-top: 5px;
+  display: block;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+#show-login {
+  padding: 10px;
+  border: none;
+  background-color: #232c41;
+  cursor: pointer;
+  font-size: large;
+}
+#show-login:hover {
+  color: teal;
+}
 /* -----styling the movie cards--- */
 
 .movie-card {
@@ -235,5 +260,5 @@ img {
   background-color: #010714;
 }
 #like-2 {
-  color: red;
+  cursor: pointer;
 }

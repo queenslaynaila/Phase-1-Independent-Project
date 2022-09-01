@@ -1,9 +1,20 @@
 // ----define all needed variabless---//
+const popuplogin = document.querySelector(".popup");
+const showlogin = document.querySelector("#show-login");
+const closebtn = document.querySelector(".close-btn");
 const localAPI = "http://localhost:3000/kmovies";
 const localAPIpopular = "http://localhost:3000/popular";
 let kDramaData = [];
 const recentlyRel = document.getElementsByClassName("recentreleases");
 
+//---makelogin form appear-----//
+showlogin.addEventListener("click", () => {
+  popuplogin.style.display = "block";
+});
+// ---make login form disapear-----//
+closebtn.addEventListener("click", () => {
+  popuplogin.style.display = "none";
+});
 //-----fetch from server-------//
 const getKdramaData = () => {
   return fetch(localAPI).then((response) => response.json());
