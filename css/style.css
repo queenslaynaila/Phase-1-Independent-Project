@@ -262,3 +262,37 @@ img {
 #like-2 {
   cursor: pointer;
 }
+.totaldescrption {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  gap: 30px;
+  box-shadow: 0 10px 30px -15px #fafafa;
+  border-radius: 40px;
+  width: 60%;
+}
+.movieimg-full-img {
+  height: 500px;
+  margin-top: 40px;
+}
+.movie-full-card {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.description {
+  margin-top: 40px;
+  width: 600px;
+  margin-bottom: 40px;
+}
+.description input {
+  border: none;
+  padding: 10px;
+  color: black;
+}
+.description button {
+  padding: 10px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+  color: #010714;
+}
