@@ -2,6 +2,11 @@
 const popuplogin = document.querySelector(".popup");
 const showlogin = document.querySelector("#show-login");
 const closebtn = document.querySelector(".close-btn");
+const homeBtn = document.getElementById("homebtn");
+const categoriesBtn = document.getElementById("categoriesbtn");
+const faq = document.getElementById("FAQ");
+const userform = document.getElementsByClassName("userform");
+const pagebody = document.getElementsByClassName("main-content-section");
 const localAPI = "http://localhost:3000/kmovies";
 const localAPIpopular = "http://localhost:3000/popular";
 let kDramaData = [];
@@ -37,28 +42,28 @@ document.addEventListener("DOMContentLoaded", async () => {
     const data = recentrelease.map((_element, _index) => {
       console.log(_element.title);
       return `<div class="wrapper" key=${_index}>
-      <div class="movie-card">
-        <div class="movieimg">
-          <img src=" ${_element.poster}">
-        </div>
-        <div class="moviedetail">
-          <h3 class="movie-card-title">
-             ${_element.title}
-          </h3>
-        </div>
-        <div class="like-content">
-          <div>
-          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
-          <span class="like-count" id="like-content-2">
-                <span> ${_element.likes}</span> 
-          </span>
+          <div class="movie-card">
+            <div class="movieimg">
+              <img src=" ${_element.poster}">
+            </div>
+            <div class="moviedetail">
+              <h3 class="movie-card-title">
+                ${_element.title}
+              </h3>
+            </div>
+            <div class="like-content">
+              <div>
+              <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+              <span class="like-count" id="like-content-2">
+                    <span> ${_element.likes}</span> 
+              </span>
+              </div>
+              <div>
+              <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
-          <div>
-          <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-    </div>`;
+        </div>`;
     });
     container3.innerHTML = data;
   };
@@ -76,28 +81,28 @@ document.addEventListener("DOMContentLoaded", async () => {
     const data = populareleases.map((_element, _index) => {
       console.log(_element.title);
       return `<div class="wrapper" key=${_index}>
-      <div class="movie-card">
-        <div class="movieimg">
-          <img src=" ${_element.poster}">
-        </div>
-        <div class="moviedetail">
-          <h3 class="movie-card-title">
-             ${_element.title}
-          </h3>
-        </div>
-        <div class="like-content">
-          <div>
-          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
-          <span class="like-count" id="like-content-2">
-                <span> ${_element.likes}</span> 
-          </span>
+          <div class="movie-card">
+            <div class="movieimg">
+              <img src=" ${_element.poster}">
+            </div>
+            <div class="moviedetail">
+              <h3 class="movie-card-title">
+                ${_element.title}
+              </h3>
+            </div>
+            <div class="like-content">
+              <div>
+              <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+              <span class="like-count" id="like-content-2">
+                    <span> ${_element.likes}</span> 
+              </span>
+              </div>
+              <div>
+              <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
-          <div>
-          <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-    </div>`;
+        </div>`;
     });
     container2.innerHTML = data;
   };
@@ -118,30 +123,32 @@ document.addEventListener("DOMContentLoaded", async () => {
     const data = currentlyAiring.map((_element, _index) => {
       console.log(_element.title);
       return `<div class="wrapper" key=${_index}>
-      <div class="movie-card">
-        <div class="movieimg">
-          <img src=" ${_element.poster}">
-        </div>
-        <div class="moviedetail">
-          <h3 class="movie-card-title">
-             ${_element.title}
-          </h3>
-        </div>
-        <div class="like-content">
-          <div>
-          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
-          <span class="like-count" id="like-content-2">
-                <span> ${_element.likes}</span> 
-          </span>
+          <div class="movie-card">
+            <div class="movieimg">
+              <img src=" ${_element.poster}">
+            </div>
+            <div class="moviedetail">
+              <h3 class="movie-card-title">
+                ${_element.title}
+              </h3>
+            </div>
+            <div class="like-content">
+              <div>
+              <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+              <span class="like-count" id="like-content-2">
+                    <span> ${_element.likes}</span> 
+              </span>
+              </div>
+              <div>
+              <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
-          <div>
-          <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-    </div>`;
+        </div>`;
     });
     contain.innerHTML = data;
   };
   updateUI(currentlyAiring);
 });
+
+userform.addEventListener("submit", (e) => {});
