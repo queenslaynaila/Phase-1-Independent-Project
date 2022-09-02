@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           <input type="text" class="comment" placeholder="Enter your comment">
           <button id="comment-1" class="submit">Post Comment</button><br>
           <h3>COMMENTS</h3>
-          <P>${kDramaData[i].comments["content"]}</P>
+          
         </div>
       </div>
     `;
