@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const containerForRecentlyReleased = document.querySelector(".container3");
   const updateUIRecents = (recentrelease) => {
     const data = recentrelease.map((_element, _index) => {
-      console.log(_element.title);
       return `<div class="wrapper" key=${_index}>
       <div class="movie-card">
         <div class="movieimg">
@@ -86,7 +85,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container2 = document.querySelector(".container2");
   const updateUIPopular = (populareleases) => {
     const data = populareleases.map((_element, _index) => {
-      console.log(_element.title);
       return `<div class="wrapper" key=${_index}>
           <div class="movie-card">
             <div class="movieimg">
@@ -122,7 +120,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const updateUI = (currentlyAiring) => {
     const data = currentlyAiring.map((_element, _index) => {
-      console.log(_element.title);
       return `<div class="wrapper" key=${_index}>
       <div class="movie-card">
         <div class="movieimg">
@@ -156,10 +153,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   // search an indivdual movie
   search.addEventListener("click", (e) => {
     e.preventDefault();
-    kDramaData.forEach((movie) => {
-      console.log(movie.title);
+
+    kDramaData.map((movie) => {
       if (movie.title === searchinput.value) {
-        pagebody.innerHTML = `<div class="totaldescrption">
+        return (pagebody.innerHTML = `<div class="totaldescrption">
               <div class="movie-full-card">
                  <div class="movie-full-img">
                  <img src="${movie.poster}">
@@ -186,7 +183,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       
                </div>
             </div>
-           `;
+           `);
       }
     });
   });
