@@ -59,7 +59,8 @@ body {
   padding: 0px 20px;
   color: rgb(227, 238, 227);
 }
-.nav ul li a:hover {
+.nav ul li a:hover,
+.active {
   color: teal;
   font-weight: bolder;
 }

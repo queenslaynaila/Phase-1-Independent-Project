@@ -47,3 +47,39 @@ function currentlyAiringDramas(currentlyAiring) {
   });
 }
 const contain = document.getElementsByClassName("")
+
+
+for (let i = 0; i <= kDramaData.length; i++) {
+  if (sinput.value === kDramaData[i].title) {
+    console.log(kDramaData[i]);
+    document.body.innerHTML = "";
+    document.body.innerHTML = `<div class="totaldescrption">
+    <div class="movie-full-card">
+      <div class="movie-full-img">
+        <img src="${kDramaData[i].poster}">
+      </div>
+
+      <div class="like-content">
+        <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+        <span class="like-count" id="like-content-2">
+          <span>54</span>
+        </span>
+        <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="description">
+      <h2>${kDramaData[i].title}</h2>
+      <p>Average Rating: ${kDramaData[i].imdbRating}</p>  
+      <h3>Summary</h3>
+      <p>${kDramaData[i].summary}</p>
+      <input type="text" class="user" placeholder="Enter your name">
+      <input type="text" class="comment" placeholder="Enter your comment">
+      <button id="comment-1" class="submit">Post Comment</button><br>
+      <h3>COMMENTS</h3>
+      <P>${kDramaData[i].comments}</P>
+    </div>
+  </div>
+`;
+  }
+}
+});
