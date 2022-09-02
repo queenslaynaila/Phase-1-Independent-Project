@@ -265,8 +265,8 @@ img {
 }
 .totaldescrption {
   display: flex;
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 90px;
+  margin-left: 150px;
   gap: 30px;
   box-shadow: 0 10px 30px -15px #fafafa;
   border-radius: 40px;

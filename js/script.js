@@ -1,20 +1,13 @@
-// ----define all needed variabless---//
 const popLoginForm = document.querySelector(".popup");
 const showloginForm = document.querySelector("#show-login");
 const closePopUpLogin = document.querySelector(".close-btn");
-
-const homeBtn = document.getElementById("homebtn");
-const categoriesBtn = document.getElementById("categoriesbtn");
-const faq = document.getElementById("FAQ");
 const userform = document.getElementsByClassName("userform");
 let pagebody = document.querySelector(".main-content-section");
-
 const localAPI = "http://localhost:3000/kmovies";
-const localAPIpopular = "http://localhost:3000/popular";
 const likeCount = document.getElementsByClassName("like-count");
 const recentlyRel = document.getElementsByClassName("recentreleases");
 const search = document.getElementById("search-btn");
-const sinput = document.getElementById("search-input");
+const searchinput = document.getElementById("search-input");
 let kDramaData = [];
 
 showloginForm.addEventListener("click", () => {
@@ -160,14 +153,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
   updateUI(currentlyAiring);
 
+  // search an indivdual movie
   search.addEventListener("click", (e) => {
     e.preventDefault();
-
-    console.log(sinput.value);
-    console.log(kDramaData);
     kDramaData.forEach((movie) => {
       console.log(movie.title);
-      if (movie.title === sinput.value) {
+      if (movie.title === searchinput.value) {
         pagebody.innerHTML = `<div class="totaldescrption">
               <div class="movie-full-card">
                  <div class="movie-full-img">
@@ -184,13 +175,14 @@ document.addEventListener("DOMContentLoaded", async () => {
               </div>
               <div class="description">
                <h2>${movie.title}</h2>
-                 <p>Average Rating;</p>
+                 <p>Average Rating:${movie.imdbRating}</p>
                <h3>Summary</h3>
                 <p>${movie.summary}</p>
                 <input type="text" class="user" placeholder="Enter your name">
                  <input type="text" class="comment" placeholder="Enter your comment">
                <button id="comment-1" class="submit">Post Comment</button><br>
-                 <h3>COMMENTS</h3>
+                 <h3>COMMENTS</h3> 
+                 <ul id="listComments"></ul>
       
                </div>
             </div>
