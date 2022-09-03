@@ -28,7 +28,7 @@ This project is a movie library where users may login to view details about thei
 
 ## SETUP
 
-To run this projcet,clone this repository fom github , On the command line ,in the directory for this folder ,run json-server --watch db.json to start the server.
+To run this projcet,clone this repository fom github.
 
 ## HOW TO USE THE WEBSITE
 
