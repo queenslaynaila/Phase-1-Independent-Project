@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     kDramaData.map((movie) => {
       if (movie.title === searchinput.value) {
-        return (pagebody.innerHTML = `<div class="totaldescrption">
+        pagebody.innerHTML = `<div class="totaldescrption">
               <div class="movie-full-card">
                  <div class="movie-full-img">
                  <img src="${movie.poster}">
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       
                </div>
             </div>
-           `);
+           `;
       }
     });
   });

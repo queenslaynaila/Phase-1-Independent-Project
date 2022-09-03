@@ -22,7 +22,9 @@ This project is a movie library where users may login to view details about thei
     Project is created with:
             -HTML
             -CSS
+            -Javascript
             -Google fonts
+            -JSON
 
 ## SETUP
 
