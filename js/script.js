@@ -3,7 +3,7 @@ const showloginForm = document.querySelector("#show-login");
 const closePopUpLogin = document.querySelector(".close-btn");
 const userform = document.getElementsByClassName("userform");
 let pagebody = document.querySelector(".main-content-section");
-const localAPI = "http://localhost:3000/kmovies";
+const localAPI = "https://my-pahse-1-api.herokuapp.com/kmovies";
 const likeCount = document.getElementsByClassName("like-count");
 const recentlyRel = document.getElementsByClassName("recentreleases");
 const search = document.getElementById("search-btn");
@@ -172,16 +172,16 @@ document.addEventListener("DOMContentLoaded", async () => {
               </div>
               <div class="description">
                <h2>${movie.title}</h2>
-                 <p>Average Rating:${movie.imdbRating}</p>
+               <p>Average Rating:${movie.imdbRating}</p>
                <h3>Summary</h3>
                 <p>${movie.summary}</p>
                 <input type="text" class="user" placeholder="Enter your name">
-                 <input type="text" class="comment" placeholder="Enter your comment">
-               <button id="comment-1" class="submit">Post Comment</button><br>
-                 <h3>COMMENTS</h3> 
-                 <ul id="listComments"></ul>
+                <input type="text" class="comment" placeholder="Enter your comment">
+                <button id="comment-1" class="submit">Post Comment</button><br>
+                <h3>COMMENTS</h3> 
+                <ul id="listComments"></ul>
       
-               </div>
+                </div>
             </div>
            `;
       }
