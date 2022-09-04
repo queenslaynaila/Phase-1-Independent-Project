@@ -1,420 +1,423 @@
 {
-  "kmovies":[
-  {
-    "id":1,
-    "title": "100 Days My Prince",
-    "likes":50,
-    "genre": ["Historical", "Romantic-comedy"],
-    "scriptWriter": "No Ji-sul",
-    "director": "Lee Jong-jae",
-    "distributor": "tvN",
-    "leadActor": "Do Kyung-soo",
-    "leadActress": "Nam Ji-hyun",
-    "mainCasts": {
-      "actors": ["Do Kyung-soo", "Jo Sung-ha", "Kim Seon-ho"],
-      "actresses": ["Nam Ji-hyun", "Han So-hee"]
+  "kmovies": [
+    {
+      "id": 1,
+      "title": "100 Days My Prince",
+      "likes": 50,
+      "genre": ["Historical", "Romantic-comedy"],
+      "scriptWriter": "No Ji-sul",
+      "director": "Lee Jong-jae",
+      "distributor": "tvN",
+      "leadActor": "Do Kyung-soo",
+      "leadActress": "Nam Ji-hyun",
+      "mainCasts": {
+        "actors": ["Do Kyung-soo", "Jo Sung-ha", "Kim Seon-ho"],
+        "actresses": ["Nam Ji-hyun", "Han So-hee"]
+      },
+      "supportingCasts": {
+        "actors": ["Ji Min-hyuk", "Choi Woong", "Heo Jung-min", "Jo Hyun-sik"],
+        "actresses": ["Oh Yeon-ah"]
+      },
+      "noepisodes": 16,
+      "releasedYear": "2019",
+      "imdbRating": "7.3",
+      "percentLiked": 97,
+      "audienceRating": "4.8",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "100 days my Prince",
+      "poster": "./images/100 days my prince.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "Lee Yul, Crown Prince of Joseon, is a perfectionist who disregards most royal palace nobles. His cold and demanding demeanor masks deeply-rooted loneliness. He comes to pass a law stating that Korean citizens of marriageable age must wed before the age of 28.Hong Shim is a strong, intelligent woman who supports herself and her father. After an attempt on his life, Crown Prince Lee Yul is severely injured and finds himself under the care of the Hong household. He/s experiencing temporary amnesia, and now unaware of his identity, he is free to wander at will as a commoner.Due to the law, he himself passed, Hong Shim, now the oldest unmarried woman in her village, must marry or face punishment from officials. Lee Yul proposes to Hong Shim that they ought to marry. Can their budding romance withstand Lee Yul/s eventual recovery, with his memory fully intact? "
     },
-    "supportingCasts": {
-      "actors": ["Ji Min-hyuk", "Choi Woong", "Heo Jung-min", "Jo Hyun-sik"],
-      "actresses": ["Oh Yeon-ah"]
+    {
+      "id": 2,
+      "title": "Crash Landing on You",
+      "likes": 70,
+      "genre": ["Romance", "Drama"],
+      "scriptWriter": "Park Ji-eun",
+      "director": "Lee Jung-hyo",
+      "distributor": "tvN",
+      "leadActor": "Hyun Bin",
+      "leadActress": "Son Ye-jin",
+      "mainCasts": {
+        "actors": ["Hyun Bin", "Kim Jung-hyun"],
+        "actresses": ["Son Ye-jin", "Seo Ji-hye"]
+      },
+      "supportingCasts": {
+        "actors": [
+          "Jung Ae-ri",
+          "Ha Seok-jin",
+          "Oh Man-seok",
+          "Yang Kyung-won",
+          "Yoo Su-bin",
+          "Le Shin-young"
+        ],
+        "actresses": ["Bang Eun-jin", "Hwang Woo-seul-hye", "Yoon Ji-min"]
+      },
+      "noepisodes": 16,
+      "releasedYear": "2019",
+      "imdbRating": "8.8",
+      "percentLiked": 97,
+      "audienceRating": "5",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "But It's Destiny",
+      "poster": "./images/crash landing on you.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "Crash Landing on You tells the story of two star-crossed lovers, Yoon Se-ri (Son Ye-jin), a South Korean Chaebol heiress, and Ri Jeong-hyeok (Hyun Bin), a member of the North Korean elite and a Captain in the North Korean Special Police Force.\nOne day while Yoon Se-ri is paragliding in Seoul, South Korea, a sudden tornado knocks her out and blows her off course. She awakens to find her paraglider had crashed into a tree in a forest in the DMZ in North Korea (an area forbidden for South Koreans). She then meets Ri Jeong-hyeok and falls into his arms when descending from the tree. Ri Jeong-hyeok eventually gives Yoon Se-ri shelter and develops plans to secretly help her return to South Korea. Over time, they fall in love, despite the divide and dispute between their respective countries. murder of Jeong-hyeok's older brother, an officer who tried to expose him."
     },
-    "noepisodes": 16,
-    "releasedYear": "2019",
-    "imdbRating": "7.3",
-    "percentLiked": 97,
-    "audienceRating": "4.8",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "100 days my Prince",
-    "poster": "./images/100 days my prince.jpg",
-    "summary": "Lee Yul, Crown Prince of Joseon, is a perfectionist who disregards most royal palace nobles. His cold and demanding demeanor masks deeply-rooted loneliness. He comes to pass a law stating that Korean citizens of marriageable age must wed before the age of 28.Hong Shim is a strong, intelligent woman who supports herself and her father. After an attempt on his life, Crown Prince Lee Yul is severely injured and finds himself under the care of the Hong household. He/s experiencing temporary amnesia, and now unaware of his identity, he is free to wander at will as a commoner.Due to the law, he himself passed, Hong Shim, now the oldest unmarried woman in her village, must marry or face punishment from officials. Lee Yul proposes to Hong Shim that they ought to marry. Can their budding romance withstand Lee Yul/s eventual recovery, with his memory fully intact? "
-  },
-  {
-    "id":2,
-    "title": "Crash Landing on You",
-    "likes":70,
-    "genre": ["Romance","Drama" ],
-    "scriptWriter": "Park Ji-eun",
-    "director": "Lee Jung-hyo",
-    "distributor": "tvN",
-    "leadActor": "Hyun Bin",
-    "leadActress": "Son Ye-jin",
-    "mainCasts": {
-      "actors": ["Hyun Bin", "Kim Jung-hyun"],
-      "actresses": ["Son Ye-jin", "Seo Ji-hye"]
+    {
+      "id": 3,
+      "title": "The Doctors",
+      "likes": 20,
+      "genre": ["Medical", "Drama", "Romance"],
+      "scriptWriter": "Ha Myung-hee",
+      "director": "Oh Choong-hwan",
+      "distributor": "SBS TV",
+      "leadActor": "Kim Rae-won",
+      "leadActress": "Park Shin-hye",
+      "mainCasts": {
+        "actors": ["Kim Rae-won", "Yoon Kyun-sang"],
+        "actresses": ["Park Shin-hye", "Lee Sung-Kyung"]
+      },
+      "supportingCasts": {
+        "actors": ["Jung Hae-kyun", "Ji Soo", "Jeon Gook-hwan", "Um Hyo-sup"],
+        "actresses": [
+          "Yoo Da-in",
+          "Kim Young-ae",
+          "Park Ji-a",
+          "Han Bo-bae",
+          "Ji Soo",
+          "Yoon Hae-young"
+        ]
+      },
+      "noepisodes": 20,
+      "releasedYear": "2016",
+      "imdbRating": "7.7",
+      "percentLiked": "95",
+      "audienceRating": "4.9",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "No Way",
+      "poster": "./images/doctors.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "Yoo Hye-jung (Park Shin-hye) was a headstrong girl in high school with a prickly, gangster personality. Due to her many childhood scars, Hye-jung keeps her heart closed towards other people. However, she changes after meeting her mentor Hong Ji-hong (Kim Rae-won), who plays a key role in transforming her life from a 'hopeless' delinquent to a compassionate doctor. They part ways subsequently but meet agecome a doctain after 13 years, when Yoo Hye-jung had bor"
     },
-    "supportingCasts": {
-      "actors": [
-        "Jung Ae-ri",
-        "Ha Seok-jin",
-        "Oh Man-seok",
-        "Yang Kyung-won",
-        "Yoo Su-bin",
-        "Le Shin-young"
-      ],
-      "actresses": ["Bang Eun-jin", "Hwang Woo-seul-hye", "Yoon Ji-min"]
+    {
+      "id": "4",
+      "title": "Strong Woman Do Bong-soon",
+      "likes": 20,
+      "genre": ["Fantasy", "Thriller", "Action", "Romantic-comedy"],
+      "scriptWriter": "Baek Mi-kyung",
+      "director": "Lee Hyung-min",
+      "distributor": "JTBC",
+      "leadActor": "Park Hyung-sik",
+      "leadActress": "Park Bo-young",
+      "mainCasts": {
+        "actors": ["Park Hyung-sik", "Ji Soo"],
+        "actresses": []
+      },
+      "supportingCasts": {
+        "actors": [
+          "Ahn Woo-yeon",
+          "Yoo Jae-myung",
+          "Jeon Seok-ho",
+          "Han Jung-kook",
+          "Kim Seong-beom",
+          "Shim Hoon-gi",
+          "Lee Se-wook"
+        ],
+        "actresses": [
+          "Shim Hye-jin",
+          "Park Bo-mi",
+          "Baek Soon-ryun",
+          "Kim Mi-hee",
+          "Kim Soo-yeon"
+        ]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2019",
+      "imdbRating": "8.2",
+      "percentLiked": 88,
+      "audienceRating": "4.9",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "You're My Garden",
+      "poster": "./images/strong woman bonsong.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "Do Bong-soon (Park Bo-young) was born with superhuman strength. Her strength is hereditary and passed along only to the women in her family. Her dream is to create a video game with herself as the main character. She desperately wants to become a delicate and elegant woman, which is the ideal type of her crush, In Guk-doo (Ji Soo), a police officer. Thanks to her strength, she gets a job as bodyguard to rich heir Ahn Min-hyuk (Park Hyung-sik), the CEO of a gaming company, Ainsoft. In contrast to Guk-doo, Min-hyuk is an eccentric man who is playful, a little spoiled, has no regard for rules, and dislikes policemen. He has recently received anonymous threats and has even been stalked, leading him to hire Bong-soon as his bodyguard after witnessing her beat up a bunch of construction workers when they threatened an old elementary school bus driver.\nA series of kidnapping cases happen in Dobong-dong, the district Bong-soon lives in, and she is determined to catch the culprit, who targeted her best friend. With help and training from Min-hyuk, she manages to control her strength to use it for good causes. Min-hyuk and Bong-soon find their relationship growing into something more. Their relationship at work and in pursuit of kidnapper creates comical and dangerous situations, which bring them closer."
     },
-    "noepisodes": 16,
-    "releasedYear": "2019",
-    "imdbRating": "8.8",
-    "percentLiked": 97,
-    "audienceRating": "5",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "But It's Destiny",
-    "poster": "./images/crash landing on you.jpg",
-    "summary": "Crash Landing on You tells the story of two star-crossed lovers, Yoon Se-ri (Son Ye-jin), a South Korean Chaebol heiress, and Ri Jeong-hyeok (Hyun Bin), a member of the North Korean elite and a Captain in the North Korean Special Police Force.\nOne day while Yoon Se-ri is paragliding in Seoul, South Korea, a sudden tornado knocks her out and blows her off course. She awakens to find her paraglider had crashed into a tree in a forest in the DMZ in North Korea (an area forbidden for South Koreans). She then meets Ri Jeong-hyeok and falls into his arms when descending from the tree. Ri Jeong-hyeok eventually gives Yoon Se-ri shelter and develops plans to secretly help her return to South Korea. Over time, they fall in love, despite the divide and dispute between their respective countries. murder of Jeong-hyeok's older brother, an officer who tried to expose him."
-  },
-  {
-    "id":3,
-    "title": "The Doctors",
-    "likes":20,
-    "genre": ["Medical", "Drama", "Romance"],
-    "scriptWriter": "Ha Myung-hee",
-    "director": "Oh Choong-hwan",
-    "distributor": "SBS TV",
-    "leadActor": "Kim Rae-won",
-    "leadActress": "Park Shin-hye",
-    "mainCasts": {
-      "actors": ["Kim Rae-won", "Yoon Kyun-sang"],
-      "actresses": ["Park Shin-hye", "Lee Sung-Kyung"]
+    {
+      "id": "5",
+      "likes": 10,
+      "title": "What's Wrong with Secretary Kim?",
+      "genre": ["Romantic-comedy"],
+      "scriptWriter": "Jung Eun-young",
+      "director": "Park Joon-hwa",
+      "distributor": "tvN",
+      "leadActor": "Park Seo-joon",
+      "leadActress": "Park Min-young",
+      "mainCasts": {
+        "actors": ["Park Seo-joon"],
+        "actresses": ["Park Min-young"]
+      },
+      "supportingCasts": {
+        "actors": ["Lee Tae-hwan", "Kim Byeong-ok"],
+        "actresses": ["Kim Hye-ok"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2018",
+      "imdbRating": "8.1",
+      "percentLiked": 87,
+      "audienceRating": "4.8",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "Love Virus",
+      "poster": "./images/whats wong with sec kim.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "The plot revolves around the ambitious Vice Chairman of a major corporation, Lee Young-joon, and his highly capable secretary, Kim Mi-so. Misunderstandings arise when she announces that she will resign from her position, after working for Lee Young-joon for nine years. Young-joon will do whatever he can to make sure Mi-so stays by his side"
     },
-    "supportingCasts": {
-      "actors": ["Jung Hae-kyun", "Ji Soo", "Jeon Gook-hwan", "Um Hyo-sup"],
-      "actresses": [
-        "Yoo Da-in",
-        "Kim Young-ae",
-        "Park Ji-a",
-        "Han Bo-bae",
-        "Ji Soo",
-        "Yoon Hae-young"
-      ]
+    {
+      "id": "6",
+      "title": "The Heirs",
+      "likes": 5,
+      "genre": ["Romance", "Drama", "Teen"],
+      "scriptWriter": "Kim Eun-sok",
+      "director": "Kang Shin-hyo",
+      "distributor": "SBS TV",
+      "leadActor": "Lee Min-ho",
+      "leadActress": "Park Shi-hye",
+      "mainCasts": {
+        "actors": ["Lee Min-ho", "Kim Woo-bin"],
+        "actresses": []
+      },
+      "supportingCasts": {
+        "actors": [
+          "Kang Min-hyuk",
+          "Kang Ha-neul",
+          "Park Hyung-sik",
+          "Choi Tae-hwan",
+          "Yang Seung-pil",
+          "Cho Yoon-woo",
+          "Choi Jin-hyuk"
+        ],
+        "actresses": [
+          "Kim Ji-won",
+          "Krystal Jung",
+          "Jeon Soo-jin",
+          "Kim Mi-kyung"
+        ]
+      },
+      "noepisodes": "20",
+      "releasedYear": "2019",
+      "imdbRating": "7.5",
+      "percentLiked": "96",
+      "audienceRating": "4.8",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "I Will See You",
+      "poster": "./images/heirs.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "The series follows a group of rich, privileged high school students as they are about to take over their families' business empires, overcoming difficulties and growing every step of the way.\nKim Tan (Lee Min-ho) is a wealthy heir to a large Korean conglomerate called Jeguk Group.[9] He was exiled to the U.S. by his brother Kim Won (Choi Jin-hyuk), who tries to take control of the family business.[10] While in the States, he meets Cha Eun-sang (Park Shin-hye), who went there to look for her sister.[11] Despite being engaged to Yoo Rachel (Kim Ji-won), a fellow heiress, Kim Tan soon falls in love with Eun-sang. When Kim Tan returns to Korea, his former best friend turned enemy Choi Young-do (Kim Woo-bin) begins picking on Eun-sang to irritate Tan. Tension ensues when Young-do also falls in love with Eun-sang, and Kim Tan is forced to choose between his responsibility of pursuing the family business or love."
     },
-    "noepisodes": 20,
-    "releasedYear": "2016",
-    "imdbRating": "7.7",
-    "percentLiked": "95",
-    "audienceRating": "4.9",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "No Way",
-    "poster": "./images/doctors.jpg",
-    "summary": "Yoo Hye-jung (Park Shin-hye) was a headstrong girl in high school with a prickly, gangster personality. Due to her many childhood scars, Hye-jung keeps her heart closed towards other people. However, she changes after meeting her mentor Hong Ji-hong (Kim Rae-won), who plays a key role in transforming her life from a 'hopeless' delinquent to a compassionate doctor. They part ways subsequently but meet agecome a doctain after 13 years, when Yoo Hye-jung had bor"
-  },
-  {
-    "id":"4",
-    "title": "Strong Woman Do Bong-soon",
-    "likes":20,
-    "genre": ["Fantasy", "Thriller", "Action", "Romantic-comedy"],
-    "scriptWriter": "Baek Mi-kyung",
-    "director": "Lee Hyung-min",
-    "distributor": "JTBC",
-    "leadActor": "Park Hyung-sik",
-    "leadActress": "Park Bo-young",
-    "mainCasts": {
-      "actors": ["Park Hyung-sik", "Ji Soo"],
-      "actresses": []
+    {
+      "id": 7,
+      "title": "Fight for my way",
+      "likes": 60,
+      "genre": ["Romantic-comedy"],
+      "scriptWriter": "Im Sang-choon",
+      "director": "Lee Na-jeong",
+      "distributor": "KBS2",
+      "leadActor": "Park Seo-joon",
+      "leadActress": "Kim Ji-won",
+      "mainCasts": {
+        "actors": ["Park Seo-joon", "Ahn Jae-hong"],
+        "actresses": ["Kim Ji-won", "Song Ha-yoon"]
+      },
+      "supportingCasts": {
+        "actors": ["Son Byong-ho", "Kim Sung-oh"],
+        "actresses": ["Kim Ye-ryeong", "Pyo Ye-jin"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2017",
+      "imdbRating": "8.1",
+      "percentLiked": 67,
+      "audienceRating": "4.9",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "All I wanna do",
+      "poster": "./images/fight for my way.jpg",
+      "comments":[{"user":"queen","content":"i loved it "}],
+      "summary": "The story is about underdogs with big dreams struggling to survive and striving for success in a career they're under-qualified for. A long time friendship is blossoming into romance between two immature friends Ko Dong-man (Park Seo-joon) and Choi Ae-ra (Kim Ji-won) whose childish dynamic hasn't changed despite reaching adulthood.[5]"
     },
-    "supportingCasts": {
-      "actors": [
-        "Ahn Woo-yeon",
-        "Yoo Jae-myung",
-        "Jeon Seok-ho",
-        "Han Jung-kook",
-        "Kim Seong-beom",
-        "Shim Hoon-gi",
-        "Lee Se-wook"
-      ],
-      "actresses": [
-        "Shim Hye-jin",
-        "Park Bo-mi",
-        "Baek Soon-ryun",
-        "Kim Mi-hee",
-        "Kim Soo-yeon"
-      ]
+    {
+      "id": 8,
+      "title": "Descendants of the Sun",
+      "likes": 100,
+      "genre": ["Romantic", "Melodrama", "Action"],
+      "scriptWriter": "Kim Eun-sook",
+      "director": "Lee Eung-bok",
+      "distributor": "KBS",
+      "leadActor": "Song Joong-ki",
+      "leadActress": "Song Hye-kyo",
+      "mainCasts": {
+        "actors": ["Song Joong-ki", "Jin Goo"],
+        "actresses": ["Song Hye-kyo", "Kim Ji-won"]
+      },
+      "supportingCasts": {
+        "actors": [
+          "Park Hoon",
+          "Choi Woong",
+          "Ahn Bo-hyun",
+          "Onew",
+          "Lee Seung-joon"
+        ],
+        "actresses": ["Seo Jeong-yeon", "Park Hwan-hee"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2016",
+      "imdbRating": "8.4",
+      "percentLiked": "97",
+      "audienceRating": "4.9",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "Always",
+      "poster": "./images/descendants of the sun.jpg",
+      "comments":  [{"user":"queen","content":"i loved it "}],
+      "summary": "A love story that develops between a surgeon and a special forces officer.Kang Mo Yeon is a pretty and assertive woman who works as a cardiothoracic surgeon at Haesung Hospital.Her life is forever changed when she encounters Yoo Shi Jin, the Captain and team leader of the Alpha Team who cares more about protecting anybody in need of help as well as his country, even if it goes against the order of his superiors. This drama will tell of how they both bond together in a time of war  "
     },
-    "noepisodes": "16",
-    "releasedYear": "2019",
-    "imdbRating": "8.2",
-    "percentLiked": 88,
-    "audienceRating": "4.9",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "You're My Garden",
-    "poster": "./images/strong woman bonsong.jpg",
-     
-    "summary": "Do Bong-soon (Park Bo-young) was born with superhuman strength. Her strength is hereditary and passed along only to the women in her family. Her dream is to create a video game with herself as the main character. She desperately wants to become a delicate and elegant woman, which is the ideal type of her crush, In Guk-doo (Ji Soo), a police officer. Thanks to her strength, she gets a job as bodyguard to rich heir Ahn Min-hyuk (Park Hyung-sik), the CEO of a gaming company, Ainsoft. In contrast to Guk-doo, Min-hyuk is an eccentric man who is playful, a little spoiled, has no regard for rules, and dislikes policemen. He has recently received anonymous threats and has even been stalked, leading him to hire Bong-soon as his bodyguard after witnessing her beat up a bunch of construction workers when they threatened an old elementary school bus driver.\nA series of kidnapping cases happen in Dobong-dong, the district Bong-soon lives in, and she is determined to catch the culprit, who targeted her best friend. With help and training from Min-hyuk, she manages to control her strength to use it for good causes. Min-hyuk and Bong-soon find their relationship growing into something more. Their relationship at work and in pursuit of kidnapper creates comical and dangerous situations, which bring them closer."
-  },
-  {
-    "id":"5",
-    "likes":10,
-    "title": "What's Wrong with Secretary Kim?",
-    "genre": ["Romantic-comedy"],
-    "scriptWriter": "Jung Eun-young",
-    "director": "Park Joon-hwa",
-    "distributor": "tvN",
-    "leadActor": "Park Seo-joon",
-    "leadActress": "Park Min-young",
-    "mainCasts": {
-      "actors": ["Park Seo-joon"],
-      "actresses": ["Park Min-young"]
+    {
+      "id": 9,
+      "title": "Memories of the Alhambra",
+      "likes": 20,
+      "genre": ["Science fantasy", "Action Thriller", "Romance"],
+      "scriptWriter": "Song Jae-jung",
+      "director": "Ahn Gil-ho",
+      "distributor": "tvN",
+      "leadActor": "Hyun Bin",
+      "leadActress": "Park Shi-hye",
+      "mainCasts": {
+        "actors": ["Hyun Bin"],
+        "actresses": ["Park Shin-hye"]
+      },
+      "supportingCasts": {
+        "actors": [
+          "Park Chan-yeol",
+          "Park Hoon",
+          "Lee Seung-joon",
+          "Min Jin-woong",
+          "Kim Eui-sung"
+        ],
+        "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2018",
+      "imdbRating": "7.8",
+      "percentLiked": 57,
+      "audienceRating": "4.7",
+      "countryOfOrigin": "South Korea",
+      "openingTitleSong": "Star (Little Prince)",
+      "poster": "./images/memories of alhambra.jpg",
+      "comments":  [{"user":"queen","content":"i loved it "}],
+      "summary": "Strong spirited Yoo Jin Woo is the CEO of an investment company with a degree in engineering and a knack for developing video games.Hee Joo is a former classical guitarist who came to Spain to further her studies. After the death of her parents, she takes on various jobs to support herself, including running the old hostel.The two meet and are draw to eac other"
     },
-    "supportingCasts": {
-      "actors": ["Lee Tae-hwan", "Kim Byeong-ok"],
-      "actresses": ["Kim Hye-ok"]
+    {
+      "id": 10,
+      "title": "Love like the galaxy",
+      "likes": 400,
+      "genre": "Historical",
+      "scriptWriter": "Song Jae-jung",
+      "director": "Ahn Gil-ho",
+      "distributor": "tvN",
+      "leadActor": "Leo Wu",
+      "leadActress": "Zhao Lusi",
+      "mainCasts": {
+        "actors": ["Leo Wu"],
+        "actresses": ["Zhao Lusi"]
+      },
+      "supportingCasts": {
+        "actors": [
+          "Park Chan-yeol",
+          "Park Hoon",
+          "Lee Seung-joon",
+          "Min Jin-woong",
+          "Kim Eui-sung"
+        ],
+        "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2022",
+      "imdbRating": "7.8",
+      "percentLiked": 57,
+      "audienceRating": "4.7",
+      "countryOfOrigin": "China",
+      "openingTitleSong": "Star (Little Prince)",
+      "poster": "./images/love like the galaxy.jpg",
+      "comments":  [{"user":"queen","content":"i loved it "}],
+      "summary": "Lacking love her whole life, Cheng Shao Shang is both pragmatic and insecure in choosing a partner for marriage. She encounters three men—the emperor's adopted son Ling Bu Yi, the talented Yuan Shen of Bailu Mountain, and the aristocrat Lou Yao who each have their pros and cons. "
     },
-    "noepisodes": "16",
-    "releasedYear": "2018",
-    "imdbRating": "8.1",
-    "percentLiked": 87,
-    "audienceRating": "4.8",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "Love Virus",
-    "poster": "./images/whats wong with sec kim.jpg",
-     
-    "summary": "The plot revolves around the ambitious Vice Chairman of a major corporation, Lee Young-joon, and his highly capable secretary, Kim Mi-so. Misunderstandings arise when she announces that she will resign from her position, after working for Lee Young-joon for nine years. Young-joon will do whatever he can to make sure Mi-so stays by his side"
-  },
-  { 
-    "id":"6",
-    "title": "The Heirs",
-    "likes":5,
-    "genre": ["Romance", "Drama", "Teen"],
-    "scriptWriter": "Kim Eun-sok",
-    "director": "Kang Shin-hyo",
-    "distributor": "SBS TV",
-    "leadActor": "Lee Min-ho",
-    "leadActress": "Park Shi-hye",
-    "mainCasts": {
-      "actors": ["Lee Min-ho", "Kim Woo-bin"],
-      "actresses": []
+    {
+      "id": 11,
+      "title": "Who rules the world",
+      "likes": 600,
+      "genre": "Historical",
+      "scriptWriter": "Song Jae-jung",
+      "director": "Ahn Gil-ho",
+      "distributor": "tvN",
+      "leadActor": "Leo Wu",
+      "leadActress": "Zhao Lusi",
+      "mainCasts": {
+        "actors": ["Yang Yang"],
+        "actresses": ["Zhao Lusi"]
+      },
+      "supportingCasts": {
+        "actors": [
+          "Park Chan-yeol",
+          "Park Hoon",
+          "Lee Seung-joon",
+          "Min Jin-woong",
+          "Kim Eui-sung"
+        ],
+        "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2022",
+      "imdbRating": "7.8",
+      "percentLiked": 57,
+      "audienceRating": "4.7",
+      "countryOfOrigin": "China",
+      "openingTitleSong": "Star (Little Prince)",
+      "poster": "./images/who rules the world.jpg",
+      "comments":  [{"user":"queen","content":"i loved it "}],
+      "summary": "Lacking love her whole life, Cheng Shao Shang is both pragmatic and insecure in choosing a partner for marriage. She encounters three men—the emperor's adopted son Ling Bu Yi, the talented Yuan Shen of Bailu Mountain, and the aristocrat Lou Yao who each have their pros and cons. "
     },
-    "supportingCasts": {
-      "actors": [
-        "Kang Min-hyuk",
-        "Kang Ha-neul",
-        "Park Hyung-sik",
-        "Choi Tae-hwan",
-        "Yang Seung-pil",
-        "Cho Yoon-woo",
-        "Choi Jin-hyuk"
-      ],
-      "actresses": [
-        "Kim Ji-won",
-        "Krystal Jung",
-        "Jeon Soo-jin",
-        "Kim Mi-kyung"
-      ]
-    },
-    "noepisodes": "20",
-    "releasedYear": "2019",
-    "imdbRating": "7.5",
-    "percentLiked": "96",
-    "audienceRating": "4.8",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "I Will See You",
-    "poster": "./images/heirs.jpg",
-    "summary": "The series follows a group of rich, privileged high school students as they are about to take over their families' business empires, overcoming difficulties and growing every step of the way.\nKim Tan (Lee Min-ho) is a wealthy heir to a large Korean conglomerate called Jeguk Group.[9] He was exiled to the U.S. by his brother Kim Won (Choi Jin-hyuk), who tries to take control of the family business.[10] While in the States, he meets Cha Eun-sang (Park Shin-hye), who went there to look for her sister.[11] Despite being engaged to Yoo Rachel (Kim Ji-won), a fellow heiress, Kim Tan soon falls in love with Eun-sang. When Kim Tan returns to Korea, his former best friend turned enemy Choi Young-do (Kim Woo-bin) begins picking on Eun-sang to irritate Tan. Tension ensues when Young-do also falls in love with Eun-sang, and Kim Tan is forced to choose between his responsibility of pursuing the family business or love."
-  },
-  {
-    "id":7,
-    "title": "Fight for my way",
-    "likes":60,
-    "genre": ["Romantic-comedy"],
-    "scriptWriter": "Im Sang-choon",
-    "director": "Lee Na-jeong",
-    "distributor": "KBS2",
-    "leadActor": "Park Seo-joon",
-    "leadActress": "Kim Ji-won",
-    "mainCasts": {
-      "actors": ["Park Seo-joon", "Ahn Jae-hong"],
-      "actresses": ["Kim Ji-won", "Song Ha-yoon"]
-    },
-    "supportingCasts": {
-      "actors": ["Son Byong-ho", "Kim Sung-oh"],
-      "actresses": ["Kim Ye-ryeong", "Pyo Ye-jin"]
-    },
-    "noepisodes": "16",
-    "releasedYear": "2017",
-    "imdbRating": "8.1",
-    "percentLiked": 67,
-    "audienceRating": "4.9",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "All I wanna do",
-    "poster": "./images/fight for my way.jpg",
-    "summary": "The story is about underdogs with big dreams struggling to survive and striving for success in a career they're under-qualified for. A long time friendship is blossoming into romance between two immature friends Ko Dong-man (Park Seo-joon) and Choi Ae-ra (Kim Ji-won) whose childish dynamic hasn't changed despite reaching adulthood.[5]"
-  },
-  {
-    "id":8,
-    "title": "Descendants of the Sun",
-    "likes":100,
-    "genre": ["Romantic", "Melodrama", "Action"],
-    "scriptWriter": "Kim Eun-sook",
-    "director": "Lee Eung-bok",
-    "distributor": "KBS",
-    "leadActor": "Song Joong-ki",
-    "leadActress": "Song Hye-kyo",
-    "mainCasts": {
-      "actors": ["Song Joong-ki", "Jin Goo"],
-      "actresses": ["Song Hye-kyo", "Kim Ji-won"]
-    },
-    "supportingCasts": {
-      "actors": [
-        "Park Hoon",
-        "Choi Woong",
-        "Ahn Bo-hyun",
-        "Onew",
-        "Lee Seung-joon"
-      ],
-      "actresses": ["Seo Jeong-yeon", "Park Hwan-hee"]
-    },
-    "noepisodes": "16",
-    "releasedYear": "2016",
-    "imdbRating": "8.4",
-    "percentLiked": "97",
-    "audienceRating": "4.9",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "Always",
-    "poster": "./images/descendants of the sun.jpg",
-    "summary": "A love story that develops between a surgeon and a special forces officer.Kang Mo Yeon is a pretty and assertive woman who works as a cardiothoracic surgeon at Haesung Hospital.Her life is forever changed when she encounters Yoo Shi Jin, the Captain and team leader of the Alpha Team who cares more about protecting anybody in need of help as well as his country, even if it goes against the order of his superiors. This drama will tell of how they both bond together in a time of war  "
-  },
-  {
-    "id":9,
-    "title": "Memories of the Alhambra",
-    "likes":20,
-    "genre": ["Science fantasy", "Action Thriller", "Romance"],
-    "scriptWriter": "Song Jae-jung",
-    "director": "Ahn Gil-ho",
-    "distributor": "tvN",
-    "leadActor": "Hyun Bin",
-    "leadActress": "Park Shi-hye",
-    "mainCasts": {
-      "actors": ["Hyun Bin"],
-      "actresses": ["Park Shin-hye"]
-    },
-    "supportingCasts": {
-      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
-      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
-    },
-    "noepisodes": "16",
-    "releasedYear": "2018",
-    "imdbRating": "7.8",
-    "percentLiked": 57,
-    "audienceRating": "4.7",
-    "countryOfOrigin": "South Korea",
-    "openingTitleSong": "Star (Little Prince)",
-    "poster": "./images/memories of alhambra.jpg",
-    "summary": "Strong spirited Yoo Jin Woo is the CEO of an investment company with a degree in engineering and a knack for developing video games.Hee Joo is a former classical guitarist who came to Spain to further her studies. After the death of her parents, she takes on various jobs to support herself, including running the old hostel.The two meet and are draw to eac other"
-  },
-  {
-    "id":10,
-    "title": "Love like the galaxy",
-    "likes":400,
-    "genre": "Historical",
-    "scriptWriter": "Song Jae-jung",
-    "director": "Ahn Gil-ho",
-    "distributor": "tvN",
-    "leadActor": "Leo Wu",
-    "leadActress": "Zhao Lusi",
-    "mainCasts": {
-      "actors": ["Leo Wu"],
-      "actresses": ["Zhao Lusi"]
-    },
-    "supportingCasts": {
-      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
-      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
-    },
-    "noepisodes": "16",
-    "releasedYear": "2022",
-    "imdbRating": "7.8",
-    "percentLiked": 57,
-    "audienceRating": "4.7",
-    "countryOfOrigin": "China",
-    "openingTitleSong": "Star (Little Prince)",
-    "poster": "./images/love like the galaxy.jpg",
-    "summary": "Lacking love her whole life, Cheng Shao Shang is both pragmatic and insecure in choosing a partner for marriage. She encounters three men—the emperor's adopted son Ling Bu Yi, the talented Yuan Shen of Bailu Mountain, and the aristocrat Lou Yao who each have their pros and cons. "
-
-  },
-  {
-    "id":11,
-    "title": "Who rules the world",
-    "likes":600,
-    "genre": "Historical",
-    "scriptWriter": "Song Jae-jung",
-    "director": "Ahn Gil-ho",
-    "distributor": "tvN",
-    "leadActor": "Leo Wu",
-    "leadActress": "Zhao Lusi",
-    "mainCasts": {
-      "actors": ["Yang Yang"],
-      "actresses": ["Zhao Lusi"]
-    },
-    "supportingCasts": {
-      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
-      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
-    },
-    "noepisodes": "16",
-    "releasedYear": "2022",
-    "imdbRating": "7.8",
-    "percentLiked": 57,
-    "audienceRating": "4.7",
-    "countryOfOrigin": "China",
-    "openingTitleSong": "Star (Little Prince)",
-    "poster": "./images/who rules the world.jpg",
-    "summary": "Lacking love her whole life, Cheng Shao Shang is both pragmatic and insecure in choosing a partner for marriage. She encounters three men—the emperor's adopted son Ling Bu Yi, the talented Yuan Shen of Bailu Mountain, and the aristocrat Lou Yao who each have their pros and cons. "
-
-  },
-  {
-    "id":12,
-    "title": "Immortal Samsara",
-    "likes":700,
-    "genre": "Historical",
-    "scriptWriter": "Song Jae-jung",
-    "director": "Ahn Gil-ho",
-    "distributor": "tvN",
-    "leadActor": "Leo Wu",
-    "leadActress": "Zhao Lusi",
-    "mainCasts": {
-      "actors": ["Yang Zi"],
-      "actresses": ["Cheng Yi"]
-    },
-    "supportingCasts": {
-      "actors": ["Park Chan-yeol", "Park Hoon", "Lee Seung-joon", "Min Jin-woong", "Kim Eui-sung"],
-      "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
-    },
-    "noepisodes": "16",
-    "releasedYear": "2022",
-    "imdbRating": "7.8",
-    "percentLiked": 57,
-    "audienceRating": "4.7",
-    "countryOfOrigin": "China",
-    "openingTitleSong": "Star (Little Prince)",
-    "poster": "./images/immortal samsara.jpg",
-    "summary": "Yan Dan is the sole descendant of the ancient tribe the Four-Leaved Lotus.  Yan Dan’s entire being is a treasure trove of medicines.  She and twin sister Zhi Xi transformed into human form a century before while attending the Queen Mother's Feast, but Yan Dan faced the greatest trial of her life - the love trial. Falling in love with Lord Ying Yuan resulted in her wasting the following  900 years trying to forget him. Such a high price to pay! "
-
-  }
-],
-"comments": [
-  {
-    "id": 1,
-    "Movieid": 1,
-     
-    "content": "He's got a nose for bugs!"
-  },
-  {
-    "id": 2,
-    "MovieId": 2,
-    "content": "Woof!"
-  },
-  {
-    "id": 3,
-    "MovieId": 3,
-    "content": "Woof!"
-  },
-  {
-    "id": 4,
-    "MovieId": 4,
-    "content": "Woof!"
-  },
-  {
-    "id": 3,
-    "MovieId": 3,
-    "content": "Woof!"
-  }
-]
+    {
+      "id": 12,
+      "title": "Immortal Samsara",
+      "likes": 700,
+      "genre": "Historical",
+      "scriptWriter": "Song Jae-jung",
+      "director": "Ahn Gil-ho",
+      "distributor": "tvN",
+      "leadActor": "Leo Wu",
+      "leadActress": "Zhao Lusi",
+      "mainCasts": {
+        "actors": ["Yang Zi"],
+        "actresses": ["Cheng Yi"]
+      },
+      "supportingCasts": {
+        "actors": [
+          "Park Chan-yeol",
+          "Park Hoon",
+          "Lee Seung-joon",
+          "Min Jin-woong",
+          "Kim Eui-sung"
+        ],
+        "actresses": ["Kim Yong-rim", "Lee Re", "Lee Si-won"]
+      },
+      "noepisodes": "16",
+      "releasedYear": "2022",
+      "imdbRating": "7.8",
+      "percentLiked": 57,
+      "audienceRating": "4.7",
+      "countryOfOrigin": "China",
+      "openingTitleSong": "Star (Little Prince)",
+      "poster": "./images/immortal samsara.jpg",
+      "comments":  [{"user":"queen","content":"i loved it "}],
+      "summary": "Yan Dan is the sole descendant of the ancient tribe the Four-Leaved Lotus.  Yan Dan/s entire being is a treasure trove of medicines.  She and twin sister Zhi Xi transformed into human form a century before while attending the Queen Mother's Feast, but Yan Dan faced the greatest trial of her life - the love trial. Falling in love with Lord Ying Yuan resulted in her wasting the following  900 years trying to forget him. Such a high price to pay! "
+    }
+  ]
 }

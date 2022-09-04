@@ -260,9 +260,7 @@ img {
 .moviedetail {
   background-color: #010714;
 }
-#like-2 {
-  cursor: pointer;
-}
+
 /* ---------styling movie card apearing on search--------------*/
 .totaldescrption {
   display: flex;
@@ -297,4 +295,27 @@ img {
   margin-top: 25px;
   cursor: pointer;
   color: #010714;
+}
+.like-button {
+  color: white;
+  font-size: large;
+  border: none;
+  background: none;
+  transition: color 300ms;
+  cursor: pointer;
+}
+.like-button:hover {
+  color: red;
+}
+
+.like-button:focus {
+  outline: none;
+}
+
+.fa-comment {
+  color: white;
+  border: none;
+  background: none;
+  transition: color 300ms;
+  cursor: pointer;
 }

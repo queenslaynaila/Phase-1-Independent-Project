@@ -3,12 +3,14 @@ const showloginForm = document.querySelector("#show-login");
 const closePopUpLogin = document.querySelector(".close-btn");
 const userform = document.getElementsByClassName("userform");
 let pagebody = document.querySelector(".main-content-section");
-const deployedAPI = "https://my-pahse-1-api.herokuapp.com/kmovies";
+const localAPI = "http://localhost:3000/kmovies";
 const likeCount = document.getElementsByClassName("like-count");
 const recentlyRel = document.getElementsByClassName("recentreleases");
 const search = document.getElementById("search-btn");
 const searchinput = document.getElementById("search-input");
 let kDramaData = [];
+const likebtn = document.querySelectorAll(".like-button");
+const comment = document.querySelector(".submitcomment");
 
 showloginForm.addEventListener("click", () => {
   popLoginForm.style.display = "block";
@@ -19,7 +21,7 @@ closePopUpLogin.addEventListener("click", () => {
 });
 
 const getKdramaData = () => {
-  return fetch(deployedAPI).then((response) => response.json());
+  return fetch(localAPI).then((response) => response.json());
 };
 
 function filterMovieByReleaseYear(movie) {
@@ -54,24 +56,23 @@ document.addEventListener("DOMContentLoaded", async () => {
       return `<div class="wrapper" key=${_index}>
       <div class="movie-card">
         <div class="movieimg">
-          <img src=" ${_element.poster}">
+          <img src=" ${_element.poster}" alt="movieposter">
         </div>
         <div class="moviedetail">
           <h3 class="movie-card-title">
             ${_element.title}
           </h3>
-           <p>${_element.genre}</p>
-           
+          <p>${_element.genre}</p>
         </div>
         <div class="like-content">
           <div>
-          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+          <button class="like-button">❤</button>
           <span class="like-count" id="like-content-2">
                 <span> ${_element.likes}likes</span> 
           </span>
           </div>
           <div>
-          <i class="fa fa-commen " id="btn-2" aria-hidden="true"></i>
+          <i class="fa fa-comment " id="btn-2" aria-hidden="true"></i>
           </div>
         </div>
       </div>
@@ -91,17 +92,16 @@ document.addEventListener("DOMContentLoaded", async () => {
               <img src=" ${_element.poster}">
             </div>
             <div class="moviedetail">
-              <h3 class="movie-card-title">
+              <h3 class="movie-card-title" alt="movieposter">
                 ${_element.title}
-              </h3>
-               <p>${_element.genre}</p>
-               
+            </h3>
+            <p>${_element.genre}</p>  
             </div>
             <div class="like-content">
               <div>
-              <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+              <button class="like-button">❤</button>
               <span class="like-count" id="like-content-2">
-                    <span> ${_element.likes}likes</span> 
+              <span> ${_element.likes}likes</span> 
               </span>
               </div>
               <div>
@@ -123,18 +123,17 @@ document.addEventListener("DOMContentLoaded", async () => {
       return `<div class="wrapper" key=${_index}>
       <div class="movie-card">
         <div class="movieimg">
-          <img src=" ${_element.poster}">
+          <img src=" ${_element.poster}" alt="movieposter">
         </div>
         <div class="moviedetail">
           <h3 class="movie-card-title">
             ${_element.title}
           </h3>
-           <p>${_element.genre}</p>
-           
+          <p>${_element.genre}</p>   
         </div>
         <div class="like-content">
           <div>
-          <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+          <button class="like-button" > ❤ </button>
           <span class="like-count" id="like-content-2">
                 <span> ${_element.likes}likes</span> 
           </span>
@@ -158,22 +157,22 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (movie.title === searchinput.value) {
         pagebody.innerHTML = `<div class="totaldescrption">
               <div class="movie-full-card">
-                 <div class="movie-full-img">
-                 <img src="${movie.poster}">
-                 </div>
+              <div class="movie-full-img">
+              <img src="${movie.poster}">
+              </div>
       
                 <div class="like-content">
-                  <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
-                 <span class="like-count" id="like-content-2">
-                     <span>54</span>
-                 </span>
+                <i class="fa fa-heart delete redbtn" id="like-2" aria-hidden="true"></i>
+                <span class="like-count" id="like-content-2">
+                <span>54</span>
+                </span>
                   <i class="fa fa-comment" id="btn-2" aria-hidden="true"></i>
                 </div>
               </div>
               <div class="description">
-               <h2>${movie.title}</h2>
-               <p>Average Rating:${movie.imdbRating}</p>
-               <h3>Summary</h3>
+              <h2>${movie.title}</h2>
+              <p>Average Rating:${movie.imdbRating}</p>
+              <h3>Summary</h3>
                 <p>${movie.summary}</p>
                 <input type="text" class="user" placeholder="Enter your name">
                 <input type="text" class="comment" placeholder="Enter your comment">
@@ -182,8 +181,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <ul id="listComments"></ul>
       
                 </div>
-            </div>
-           `;
+            </div>`;
       }
     });
   });
