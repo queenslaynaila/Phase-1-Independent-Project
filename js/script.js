@@ -3,7 +3,7 @@ const showloginForm = document.querySelector("#show-login");
 const closePopUpLogin = document.querySelector(".close-btn");
 const userform = document.getElementsByClassName("userform");
 let pagebody = document.querySelector(".main-content-section");
-const localAPI = "http://localhost:3000/kmovies";
+const deployedAPI = "https://my-pahse-1-api.herokuapp.com/kmovies";
 const likeCount = document.getElementsByClassName("like-count");
 const recentlyRel = document.getElementsByClassName("recentreleases");
 const search = document.getElementById("search-btn");
@@ -21,7 +21,7 @@ closePopUpLogin.addEventListener("click", () => {
 });
 
 const getKdramaData = () => {
-  return fetch(localAPI).then((response) => response.json());
+  return fetch(deployedAPI).then((response) => response.json());
 };
 
 function filterMovieByReleaseYear(movie) {
