@@ -15,7 +15,7 @@ MyKdramaApp
 
 ## DESCRIPTION
 
-This project is a movie library where users may login to view details about their favorite Asian movies like cast,summary,ratings on different sites.Users can then like and comment on their favorit movies
+This project is a movie library where users may login to view details about their favorite Asian movies like cast,summary,ratings on different sites.Users can then like and comment on their favorit movies.The site is live at https://queenslaynaila.github.io/Phase-1-Independent-Project/
 
 ## TECHNOLOGY USED
 
